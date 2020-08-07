@@ -13,7 +13,7 @@
       return {}
     },
     created() {
-      console.log('ssss')
+
     },
     mounted() {
     },
@@ -34,7 +34,6 @@
       font-size: 16px;
       font-weight: bolder;
       letter-spacing: 4px;
-      //color: red;
     }
   }
 </style>
