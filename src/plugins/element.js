@@ -7,7 +7,7 @@ import '../assets/scss/element/element-variables.scss'
 locale.use(lang)
 
 import { Button, Form ,Radio, Input, Select ,Checkbox, FormItem, Message, Menu, MenuItem, MenuItemGroup, Submenu,Table,
-  TableColumn, Dropdown, DropdownItem, DropdownMenu } from 'element-ui';
+  TableColumn, Dropdown, DropdownItem, DropdownMenu, Tag, Popconfirm, Dialog } from 'element-ui';
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(Radio)
@@ -24,6 +24,9 @@ Vue.use(TableColumn)
 Vue.use(Dropdown)
 Vue.use(DropdownItem)
 Vue.use(DropdownMenu)
+Vue.use(Tag)
+Vue.use(Popconfirm)
+Vue.use(Dialog)
 //Vue.use(Message)
 Vue.component(Message.name, Message)
 

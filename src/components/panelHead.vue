@@ -2,6 +2,7 @@
   <!--每个panel的头部配置-->
   <div class="p-panel-head">
     <span class="title">{{title}}</span>
+    <slot></slot>
   </div>
 </template>
 <script>
