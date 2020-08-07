@@ -1,6 +1,5 @@
 <template>
   <div class="p-entry">
-    录入页面
   </div>
 </template>
 <script>

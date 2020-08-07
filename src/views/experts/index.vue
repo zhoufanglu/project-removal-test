@@ -87,7 +87,10 @@
       }
     }
     .p-body{
+      height: calc(100% - 60px);
       padding: 20px;
+      box-sizing: border-box;
+      background-color: $bg_color;
     }
   }
 </style>
@@ -95,6 +98,7 @@
 <style lang="scss">
   .p-experts{
     color: #303133;
+    height: 100%;
     .el-menu-head{
       width: calc(100% - 160px);
     }

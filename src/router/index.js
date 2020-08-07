@@ -68,7 +68,7 @@ const routes = [
         meta: {
           requiresAuth: true,
           keepAlive: false,
-          cnName: '配置页面',
+          cnName: '录入配置',
           isNeedOperate: true,
         },
       },

@@ -1,14 +1,28 @@
 <template>
   <div class="p-entry-config">
-    config
+    <div class="p-config-head">
+      <panelHead
+          title="专家录入配置"
+      ></panelHead>
+    </div>
   </div>
 </template>
 <script>
+  import panelHead from "@c/panelHead.vue"
   export default {
     name: '',
-    components: {},
+    components: {
+      panelHead
+    },
     data() {
-      return {}
+      return {
+        configList: [
+          {
+            label: '单位性质',
+            children: ['基地', '事业单位', '政府单位']
+          }
+        ]
+      }
     },
     created() {
     },
@@ -18,6 +32,8 @@
   }
 </script>
 <style lang="scss" scoped>
-  .p-name {
+  .p-entry-config {
+    .p-config-head{
+    }
   }
 </style>
