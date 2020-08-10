@@ -1,18 +1,23 @@
 <template>
-  <div class="p-name">
+  <div class="p-experts-detail">
     <panelHead
         title="xxx专家详情"
     >
     </panelHead>
+    <div class="p-experts-info">
+      <entryForm cate="expertsDetail"></entryForm>
+    </div>
   </div>
 </template>
 <script>
   import panelHead from "@c/panelHead.vue"
   import noData from "@c/noData.vue"
+  import entryForm from "@c/entryForm.vue"
+
   import { mapState } from 'vuex'
   export default {
     name: '',
-    components: {panelHead, noData},
+    components: {panelHead, noData,entryForm},
     data() {
       return {}
     },
@@ -27,6 +32,11 @@
   }
 </script>
 <style lang="scss" scoped>
-  .p-name {
+  .p-experts-detail {
+    .p-experts-info{
+      @include panel;
+      margin-top: 20px;
+      width: 100%;
+    }
   }
 </style>
