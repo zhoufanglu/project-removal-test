@@ -109,7 +109,7 @@
       },
       /**********************dialog***********************/
       openEnterMask() {
-
+        this.$router.push({path:'/experts/entry'})
       }
     },
     watch: {

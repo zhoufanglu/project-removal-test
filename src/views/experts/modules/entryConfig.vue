@@ -117,9 +117,15 @@
 
         configList: [
           {
+            id: 1,
             label: '单位性质',
             children: ['基地', '事业单位', '政府单位','基地1', '事业单位1', '政府单位1']
-          }
+          },
+          {
+            id: 2,
+            label: '专家特点',
+            children: ['制造业', '仓储物流']
+          },
         ],
         dialog: {
           isShow: false,
