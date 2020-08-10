@@ -1,12 +1,23 @@
 <template>
-  <div class="p-name"></div>
+  <div class="p-name">
+    <panelHead
+        title="xxx专家详情"
+    >
+    </panelHead>
+  </div>
 </template>
 <script>
+  import panelHead from "@c/panelHead.vue"
+  import noData from "@c/noData.vue"
+  import { mapState } from 'vuex'
   export default {
     name: '',
-    components: {},
+    components: {panelHead, noData},
     data() {
       return {}
+    },
+    computed: {
+      ...mapState(['userInfo'])
     },
     created() {
     },

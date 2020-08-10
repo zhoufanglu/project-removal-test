@@ -225,6 +225,7 @@
     }
     .p-config-body{
       margin-top: 20px;
+      font-size: 14px;
       @include panel;
       .p-head-row{
         font-weight: bolder;

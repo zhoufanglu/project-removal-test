@@ -20,6 +20,7 @@
     .p-config-head{
     }
     .p-config-body{
+      font-size: 14px;
       margin-top: 20px;
       @include panel;
       .p-table-row{

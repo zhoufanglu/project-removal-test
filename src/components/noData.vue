@@ -22,5 +22,6 @@
   .p-no-data {
     height: 200px;
     @include vertical-center;
+    color: $stable_darker;
   }
 </style>

@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 const login = () => import('@/views/login.vue')
 const exports = () => import('@/views/experts/index.vue') //主体路由
 const list = () => import('@/views/experts/modules/list.vue') //专家列表
-const listDetail = () => import('@/views/experts/modules/list.vue') //专家列表详情
+const listDetail = () => import('@/views/experts/modules/listDetail.vue') //专家列表详情
 const entryConfig = () => import('@/views/experts/modules/entryConfig.vue') //专家录入配置
 const entry = () => import('@/views/experts/modules/entry.vue') //专家录入
 
@@ -53,12 +53,13 @@ const routes = [
         },
       },
       {
-        path: '/experts/listDetail',
+        path: '/experts/detail',
         component: listDetail,
         name: 'listDetail',
         meta: {
           requiresAuth: true,
           keepAlive: false,
+          cnName: '专家详情'
         },
       },
       {
