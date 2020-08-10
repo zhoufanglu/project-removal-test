@@ -7,7 +7,7 @@ import '../assets/scss/element/element-variables.scss'
 locale.use(lang)
 
 import { Button, Form ,Radio, RadioGroup, RadioButton, Input, Select ,Checkbox, FormItem, Message, Menu, MenuItem, MenuItemGroup, Submenu,Table,
-  TableColumn, Dropdown, DropdownItem, DropdownMenu, Tag, Popconfirm, Dialog, Pagination, DatePicker, Divider } from 'element-ui';
+  TableColumn, Dropdown, DropdownItem, DropdownMenu, Tag, Popconfirm, Dialog, Pagination, DatePicker, Divider, Upload } from 'element-ui';
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(Radio)
@@ -32,6 +32,7 @@ Vue.use(Dialog)
 Vue.use(Pagination)
 Vue.use(DatePicker)
 Vue.use(Divider)
+Vue.use(Upload)
 //Vue.use(Message)
 Vue.component(Message.name, Message)
 
